@@ -6,7 +6,7 @@
 	"title": "Show More",
 	"category": "widgets",
 	"icon": "arrow-down-alt2",
-	"description": "Reveal following blocks in the same group a few at a time.",
+	"description": "Show the first blocks in a group and reveal more a few at a time.",
 	"textdomain": "wpfse-show-more",
 	"attributes": {
 		"itemsPerClick": { "type": "number", "default": 3 },

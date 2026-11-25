@@ -31,7 +31,7 @@
 				el( InspectorControls, {},
 					el( PanelBody, { title: __( 'Show More settings', 'wpfse-show-more' ) },
 						el( SelectControl, { label: __( 'Control block', 'wpfse-show-more' ), value: controlType, options: [ { label: __( 'Paragraph', 'wpfse-show-more' ), value: 'paragraph' }, { label: __( 'Button', 'wpfse-show-more' ), value: 'button' } ], onChange: setControlType } ),
-						el( RangeControl, { label: __( 'Blocks per click', 'wpfse-show-more' ), min: 1, max: 20, value: attributes.itemsPerClick, onChange: ( value ) => setAttributes( { itemsPerClick: value } ) } ),
+						el( RangeControl, { label: __( 'Initial blocks and blocks per click', 'wpfse-show-more' ), min: 1, max: 20, value: attributes.itemsPerClick, onChange: ( value ) => setAttributes( { itemsPerClick: value } ) } ),
 						el( ToggleControl, { label: __( 'Show remaining count', 'wpfse-show-more' ), checked: attributes.showRemaining, onChange: ( value ) => setAttributes( { showRemaining: value } ) } ),
 						el( TextControl, { label: __( 'Final label ({count} is replaced by the number)', 'wpfse-show-more' ), value: attributes.finalButtonLabel, onChange: ( value ) => setAttributes( { finalButtonLabel: value } ) } ),
 						count > 1 && el( Notice, { status: 'warning', isDismissible: false }, __( 'Only one Show More block can be used in a group. While there are duplicates, the group stays fully visible.', 'wpfse-show-more' ) ),
