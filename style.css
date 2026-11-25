@@ -1,0 +1,22 @@
+.wpfse-show-more .wp-block-button__link,
+.wpfse-show-more .wp-block-paragraph {
+	cursor: pointer;
+}
+
+.wpfse-show-more[hidden] {
+	display: none !important;
+}
+
+html.wpfse-show-more-js .wpfse-show-more:not([data-ready="true"]) ~ * {
+	display: none !important;
+}
+
+.wpfse-show-more__status {
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}

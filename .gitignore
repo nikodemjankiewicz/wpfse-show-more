@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependency and test artifacts
+node_modules/
+vendor/
+coverage/
+.phpunit.cache/
+
+# Local environment and logs
+.env
+.env.*
+*.log

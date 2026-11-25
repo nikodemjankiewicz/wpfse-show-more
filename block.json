@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wpfse/show-more",
+	"version": "1.0.0",
+	"title": "Show More",
+	"category": "widgets",
+	"icon": "arrow-down-alt2",
+	"description": "Reveal following blocks in the same group a few at a time.",
+	"textdomain": "wpfse-show-more",
+	"attributes": {
+		"itemsPerClick": { "type": "number", "default": 3 },
+		"showRemaining": { "type": "boolean", "default": true },
+		"finalButtonLabel": { "type": "string", "default": "Show all remaining ({count})" }
+	},
+	"supports": {
+		"interactivity": false
+	},
+	"editorScript": "file:./editor.js",
+	"editorStyle": "file:./style.css",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}
