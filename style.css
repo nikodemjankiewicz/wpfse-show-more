@@ -3,11 +3,12 @@
 	cursor: pointer;
 }
 
-.wpfse-show-more[hidden] {
+.wpfse-show-more[data-wpfse-show-more-exhausted] {
 	display: none !important;
 }
 
-html.wpfse-show-more-js .wpfse-show-more:not([data-ready="true"]) ~ * {
+.wpfse-show-more-paged,
+[data-wpfse-show-more-paged] {
 	display: none !important;
 }
 
