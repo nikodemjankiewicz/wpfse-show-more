@@ -1,0 +1,11 @@
+{
+	"name": "nikodemjankiewicz/wpfse-show-more",
+	"description": "A WordPress plugin that reveals sibling blocks a few at a time.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://github.com/nikodemjankiewicz/wpfse-show-more",
+	"require": {
+		"php": ">=7.4",
+		"composer/installers": "^2.0"
+	}
+}
