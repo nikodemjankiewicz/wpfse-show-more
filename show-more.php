@@ -2,6 +2,8 @@
 /**
  * Plugin Name: Show More
  * Description: Reveal sibling blocks a few at a time.
+ * Author: nikodemjankiewicz
+ * Author URI: https://github.com/nikodemjankiewicz
  * Version: 1.0.0
  * Requires at least: 6.9
  * Requires PHP: 7.4

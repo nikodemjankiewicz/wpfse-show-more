@@ -2,6 +2,8 @@
 
 A small WordPress plugin that shows the first blocks in a group and reveals more a few at a time.
 
+Author: [nikodemjankiewicz](https://github.com/nikodemjankiewicz)
+
 ## Features
 
 - Show a configurable number of direct sibling blocks initially and per click.
